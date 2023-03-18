@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>        
+        <div class="container">
+
+            <div id="first">
+                <h1>Weight Converter</h1>
+                <p id="text">Enter a value into kilogram field to convert :</p>
+            </div>
+
+            <label>Kilogram :</label>
+       
+            <input id="kilograms"  type="number" name="number"
+                oninput="kiloweightConvert(this.value)" 
+                onchange="kiloweightConvert(this.value)"/> <br><br>
+    
+            <div id="second">
+                <p>Pound: <span id="pounds"></span>  </p> <br>
+                <p>Ounces: <span id="ounces"></span>  </p> <br>
+                <p>Grams: <span id="grams"></span>   </p> <br>
+                <p>Stones: <span id="stones"></span>  </p> <br>
+            </div>
+
+        </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+ <!-- <script>
+        //function that evaluates the weight and return result
+            function kiloweightConvert(value) {
+                document.getElementById("pounds").innerHTML =
+                    value * 2.2046;
+                document.getElementById("ounces").innerHTML =
+                    value * 35.274;
+                document.getElementById("grams").innerHTML =
+                    value * 1000;
+                document.getElementById("stones").innerHTML =
+                    value * 0.1574;
+            }
+    </script> -->

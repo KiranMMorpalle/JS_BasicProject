@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    margin: 80px 80px; 
+    padding: 30px;
+
+    /* border: 2px solid red; */
+    /* background-color:rgb(173, 108, 27); */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+}
+label{
+    color: blue;
+}
+
+#kilograms{
+    padding: 5px;
+}
+
+
+#second{
+    color:black;
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+}
+#text{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: green;
+}
+
+#pounds, #ounces, #grams, #stones{
+    color: green;
+}
